@@ -6,6 +6,10 @@ on:
     - cron: '0 6 * * *'
   workflow_dispatch: # Ручной запуск
 
+# ✅ ДОБАВЛЕНО: Разрешаем Actions записывать изменения в репозиторий
+permissions:
+  contents: write
+
 jobs:
   update-feed:
     runs-on: ubuntu-latest
@@ -13,13 +17,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22' # ✅ Обновлено до 22, чтобы убрать предупреждение
       
       - name: Download and parse feed
         run: |
@@ -29,10 +31,8 @@ jobs:
           # Парсим в JSON
           node << 'EOF'
           const fs = require('fs');
-          
           const xml = fs.readFileSync('feed.xml', 'utf8');
           
-          // Извлекаем все offer блоки
           const offers = [];
           const offerRegex = /<offer\s+internal-id="([^"]+)"[^>]*>([\s\S]*?)<\/offer>/g;
           let match;
@@ -51,7 +51,6 @@ jobs:
             const category = getTag('category').toLowerCase();
             if (!category.includes('квартира')) continue;
             
-            // Площадь
             let area = '';
             const areaMatch = content.match(/<area[^>]*value="([^"]*)"/i);
             if (areaMatch) {
@@ -64,7 +63,6 @@ jobs:
               }
             }
             
-            // Цена
             let price = 0;
             const priceMatch = content.match(/<price[^>]*value="([^"]*)"/i);
             if (priceMatch) {
@@ -76,7 +74,6 @@ jobs:
               }
             }
             
-            // Изображения (берем первые 5)
             const images = [];
             const imgRegex = /<image[^>]*>([^<]*)<\/image>/gi;
             let imgMatch;
@@ -123,10 +120,10 @@ jobs:
         if: steps.check.outputs.changes == 'true'
         run: |
           git add apartments.json
-          git commit -m " Автообновление фида: $(date '+%Y-%m-%d %H:%M')"
+          git commit -m "🔄 Автообновление фида: $(date '+%Y-%m-%d %H:%M')"
           git push
           echo "✅ Feed updated successfully"
       
       - name: No changes message
         if: steps.check.outputs.changes == 'false'
-        run: echo "️ Feed is up to date, no changes needed"
+        run: echo "🟢 Feed is up to date, no changes needed"
