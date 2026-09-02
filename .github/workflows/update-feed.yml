@@ -48,12 +48,6 @@ jobs:
               return m[1].trim();
             };
             
-            const getAttr = (tag, attr) => {
-              const regex = new RegExp(`<${tag}[^>]*${attr}="([^"]*)"`, 'i');
-              const m = content.match(regex);
-              return m ? m[1] : '';
-            };
-            
             const category = getTag('category').toLowerCase();
             if (!category.includes('квартира')) continue;
             
@@ -104,26 +98,35 @@ jobs:
             });
           }
           
-          fs.writeFileSync('apartments.json', JSON.stringify(offers, null, 2));
-          console.log(`Parsed ${offers.length} apartments`);
+          const newContent = JSON.stringify(offers, null, 2);
+          fs.writeFileSync('apartments.json', newContent);
+          console.log(`✅ Parsed ${offers.length} apartments`);
           EOF
+      
+      - name: Configure git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
       
       - name: Check for changes
         id: check
         run: |
-          if git diff --quiet apartments.json; then
+          if git diff --quiet --exit-code apartments.json; then
             echo "changes=false" >> $GITHUB_OUTPUT
-            echo "No changes detected"
+            echo "📊 No changes in feed"
           else
             echo "changes=true" >> $GITHUB_OUTPUT
-            echo "Changes detected"
+            echo "📊 Changes detected in feed"
           fi
       
-      - name: Commit and push
+      - name: Commit and push if changed
         if: steps.check.outputs.changes == 'true'
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
           git add apartments.json
-          git commit -m "🔄 Автообновление фида: $(date '+%Y-%m-%d %H:%M')"
+          git commit -m " Автообновление фида: $(date '+%Y-%m-%d %H:%M')"
           git push
+          echo "✅ Feed updated successfully"
+      
+      - name: No changes message
+        if: steps.check.outputs.changes == 'false'
+        run: echo "️ Feed is up to date, no changes needed"
