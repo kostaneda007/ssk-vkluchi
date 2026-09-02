@@ -1,0 +1,129 @@
+name: Update Apartments Feed
+
+on:
+  schedule:
+    # Запуск каждый день в 6:00 UTC (9:00 по Москве)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Ручной запуск
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Download and parse feed
+        run: |
+          # Скачиваем XML
+          curl -s "https://bx.sskuban.ru/local/integrat/feed/jcat/1293492" -o feed.xml
+          
+          # Парсим в JSON
+          node << 'EOF'
+          const fs = require('fs');
+          
+          const xml = fs.readFileSync('feed.xml', 'utf8');
+          
+          // Извлекаем все offer блоки
+          const offers = [];
+          const offerRegex = /<offer\s+internal-id="([^"]+)"[^>]*>([\s\S]*?)<\/offer>/g;
+          let match;
+          
+          while ((match = offerRegex.exec(xml)) !== null) {
+            const id = match[1];
+            const content = match[2];
+            
+            const getTag = (tag) => {
+              const regex = new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, 'i');
+              const m = content.match(regex);
+              if (!m) return '';
+              return m[1].trim();
+            };
+            
+            const getAttr = (tag, attr) => {
+              const regex = new RegExp(`<${tag}[^>]*${attr}="([^"]*)"`, 'i');
+              const m = content.match(regex);
+              return m ? m[1] : '';
+            };
+            
+            const category = getTag('category').toLowerCase();
+            if (!category.includes('квартира')) continue;
+            
+            // Площадь
+            let area = '';
+            const areaMatch = content.match(/<area[^>]*value="([^"]*)"/i);
+            if (areaMatch) {
+              area = areaMatch[1];
+            } else {
+              const areaValMatch = content.match(/<area[^>]*>([\s\S]*?)<\/area>/i);
+              if (areaValMatch) {
+                const valMatch = areaValMatch[1].match(/<value[^>]*>([^<]*)/i);
+                area = valMatch ? valMatch[1].trim() : '';
+              }
+            }
+            
+            // Цена
+            let price = 0;
+            const priceMatch = content.match(/<price[^>]*value="([^"]*)"/i);
+            if (priceMatch) {
+              price = parseInt(priceMatch[1]) || 0;
+            } else {
+              const priceValMatch = content.match(/<price[^>]*>([\s\S]*?)<\/price>/i);
+              if (priceValMatch) {
+                price = parseInt(priceValMatch[1].trim()) || 0;
+              }
+            }
+            
+            // Изображения (берем первые 5)
+            const images = [];
+            const imgRegex = /<image[^>]*>([^<]*)<\/image>/gi;
+            let imgMatch;
+            while ((imgMatch = imgRegex.exec(content)) !== null && images.length < 5) {
+              const src = imgMatch[1].trim();
+              if (src) images.push(src);
+            }
+            
+            offers.push({
+              id: id,
+              rooms: getTag('rooms'),
+              total_area: area,
+              price: price,
+              floor: getTag('floor'),
+              buildingSection: getTag('building-section'),
+              apartmentNumber: getTag('apartment'),
+              description: getTag('description'),
+              images: images
+            });
+          }
+          
+          fs.writeFileSync('apartments.json', JSON.stringify(offers, null, 2));
+          console.log(`Parsed ${offers.length} apartments`);
+          EOF
+      
+      - name: Check for changes
+        id: check
+        run: |
+          if git diff --quiet apartments.json; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected"
+          fi
+      
+      - name: Commit and push
+        if: steps.check.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add apartments.json
+          git commit -m "🔄 Автообновление фида: $(date '+%Y-%m-%d %H:%M')"
+          git push
