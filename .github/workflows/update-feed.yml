@@ -2,11 +2,9 @@ name: Update Apartments Feed
 
 on:
   schedule:
-    # Запуск каждый день в 6:00 UTC (9:00 по Москве)
     - cron: '0 6 * * *'
-  workflow_dispatch: # Ручной запуск
+  workflow_dispatch:
 
-# ✅ ДОБАВЛЕНО: Разрешаем Actions записывать изменения в репозиторий
 permissions:
   contents: write
 
@@ -21,14 +19,12 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22' # ✅ Обновлено до 22, чтобы убрать предупреждение
+          node-version: '22'
       
       - name: Download and parse feed
         run: |
-          # Скачиваем XML
           curl -s "https://bx.sskuban.ru/local/integrat/feed/jcat/1293492" -o feed.xml
           
-          # Парсим в JSON
           node << 'EOF'
           const fs = require('fs');
           const xml = fs.readFileSync('feed.xml', 'utf8');
@@ -44,36 +40,47 @@ jobs:
             const getTag = (tag) => {
               const regex = new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, 'i');
               const m = content.match(regex);
-              if (!m) return '';
-              return m[1].trim();
+              return m ? m[1].trim() : '';
             };
             
             const category = getTag('category').toLowerCase();
             if (!category.includes('квартира')) continue;
             
+            // === ПЛОЩАДЬ (несколько форматов) ===
             let area = '';
-            const areaMatch = content.match(/<area[^>]*value="([^"]*)"/i);
-            if (areaMatch) {
-              area = areaMatch[1];
-            } else {
-              const areaValMatch = content.match(/<area[^>]*>([\s\S]*?)<\/area>/i);
-              if (areaValMatch) {
-                const valMatch = areaValMatch[1].match(/<value[^>]*>([^<]*)/i);
-                area = valMatch ? valMatch[1].trim() : '';
-              }
+            // Формат 1: <area value="95.4"/>
+            const areaAttr = content.match(/<area[^>]*value="([^"]*)"/i);
+            if (areaAttr) area = areaAttr[1];
+            // Формат 2: <area><value>95.4</value></area>
+            if (!area) {
+              const areaVal = content.match(/<area[^>]*>\s*<value[^>]*>([^<]*)<\/value>/i);
+              if (areaVal) area = areaVal[1].trim();
+            }
+            // Формат 3: <area>95.4</area>
+            if (!area) {
+              const areaSimple = getTag('area');
+              if (areaSimple && !areaSimple.includes('<')) area = areaSimple;
             }
             
+            // === ЦЕНА (несколько форматов) ===
             let price = 0;
-            const priceMatch = content.match(/<price[^>]*value="([^"]*)"/i);
-            if (priceMatch) {
-              price = parseInt(priceMatch[1]) || 0;
-            } else {
-              const priceValMatch = content.match(/<price[^>]*>([\s\S]*?)<\/price>/i);
-              if (priceValMatch) {
-                price = parseInt(priceValMatch[1].trim()) || 0;
+            // Формат 1: <price value="14596200"/>
+            const priceAttr = content.match(/<price[^>]*value="([^"]*)"/i);
+            if (priceAttr) price = parseInt(priceAttr[1]) || 0;
+            // Формат 2: <price><value>14596200</value></price>
+            if (price === 0) {
+              const priceVal = content.match(/<price[^>]*>\s*<value[^>]*>([^<]*)<\/value>/i);
+              if (priceVal) price = parseInt(priceVal[1].trim()) || 0;
+            }
+            // Формат 3: <price>14596200</price>
+            if (price === 0) {
+              const priceSimple = getTag('price');
+              if (priceSimple && !priceSimple.includes('<')) {
+                price = parseInt(priceSimple) || 0;
               }
             }
             
+            // === ИЗОБРАЖЕНИЯ ===
             const images = [];
             const imgRegex = /<image[^>]*>([^<]*)<\/image>/gi;
             let imgMatch;
@@ -82,7 +89,7 @@ jobs:
               if (src) images.push(src);
             }
             
-            offers.push({
+            const apt = {
               id: id,
               rooms: getTag('rooms'),
               total_area: area,
@@ -92,12 +99,21 @@ jobs:
               apartmentNumber: getTag('apartment'),
               description: getTag('description'),
               images: images
-            });
+            };
+            
+            // Логируем первые 3 квартиры для проверки
+            if (offers.length < 3) {
+              console.log(`✅ Квартира ${apt.id}: цена=${apt.price}, площадь=${apt.total_area}, комнат=${apt.rooms}`);
+            }
+            
+            offers.push(apt);
           }
           
-          const newContent = JSON.stringify(offers, null, 2);
-          fs.writeFileSync('apartments.json', newContent);
-          console.log(`✅ Parsed ${offers.length} apartments`);
+          const json = JSON.stringify(offers, null, 2);
+          fs.writeFileSync('apartments.json', json);
+          console.log(`\n Всего квартир: ${offers.length}`);
+          console.log(`📊 Квартир с ценой > 0: ${offers.filter(a => a.price > 0).length}`);
+          console.log(`📊 Квартир с ценой = 0: ${offers.filter(a => a.price === 0).length}`);
           EOF
       
       - name: Configure git
@@ -120,10 +136,10 @@ jobs:
         if: steps.check.outputs.changes == 'true'
         run: |
           git add apartments.json
-          git commit -m "🔄 Автообновление фида: $(date '+%Y-%m-%d %H:%M')"
+          git commit -m " Автообновление фида: $(date '+%Y-%m-%d %H:%M')"
           git push
           echo "✅ Feed updated successfully"
       
       - name: No changes message
         if: steps.check.outputs.changes == 'false'
-        run: echo "🟢 Feed is up to date, no changes needed"
+        run: echo "🟢 Feed is up to date"
