@@ -1479,6 +1479,23 @@
     ]
   },
   {
+    "id": "12108143",
+    "rooms": "1",
+    "total_area": "43.35",
+    "price": 7152750,
+    "floor": "1",
+    "buildingSection": "Литер 5",
+    "apartmentNumber": "224",
+    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l5_p9_f1_n02.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
     "id": "12108170",
     "rooms": "2",
     "total_area": "64.85",
@@ -2227,6 +2244,23 @@
     ]
   },
   {
+    "id": "12108346",
+    "rooms": "2",
+    "total_area": "60.6",
+    "price": 8908200,
+    "floor": "2",
+    "buildingSection": "Литер 6",
+    "apartmentNumber": "90",
+    "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l6_p3_f2_n01.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
     "id": "12108370",
     "rooms": "2",
     "total_area": "64.51",
@@ -2237,6 +2271,40 @@
     "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
     "images": [
       "https://bx.sskuban.ru/upload/planers/p/vkl_l6_p4_f1_n01.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
+    "id": "12108372",
+    "rooms": "2",
+    "total_area": "59.32",
+    "price": 8838680,
+    "floor": "2",
+    "buildingSection": "Литер 6",
+    "apartmentNumber": "116",
+    "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l6_p4_f2_n01.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
+    "id": "12108375",
+    "rooms": "2",
+    "total_area": "60.5",
+    "price": 8893500,
+    "floor": "2",
+    "buildingSection": "Литер 6",
+    "apartmentNumber": "119",
+    "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l6_p4_f2_n04.png",
       "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
@@ -2618,6 +2686,23 @@
     ]
   },
   {
+    "id": "12108503",
+    "rooms": "2",
+    "total_area": "63.04",
+    "price": 9266880,
+    "floor": "4",
+    "buildingSection": "Литер 7",
+    "apartmentNumber": "67",
+    "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l7_p2_f4_n05.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
     "id": "12108507",
     "rooms": "3",
     "total_area": "84.1",
@@ -2832,6 +2917,23 @@
     "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
     "images": [
       "https://bx.sskuban.ru/upload/planers/p/vkl_l8_p2_f1_n01.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
+    "id": "8453015",
+    "rooms": "1",
+    "total_area": "44.37",
+    "price": 7321050,
+    "floor": "1",
+    "buildingSection": "Литер 8",
+    "apartmentNumber": "28",
+    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l8_p2_f1_n02.png",
       "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
@@ -3519,23 +3621,6 @@
     ]
   },
   {
-    "id": "12108631",
-    "rooms": "2",
-    "total_area": "59.25",
-    "price": 8828250,
-    "floor": "4",
-    "buildingSection": "Литер 10",
-    "apartmentNumber": "22",
-    "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
-    "images": [
-      "https://bx.sskuban.ru/upload/planers/p/vkl_l10_p1_f4_n05.png",
-      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
-      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
-      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
-      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
-    ]
-  },
-  {
     "id": "12108655",
     "rooms": "1",
     "total_area": "43.39",
@@ -3757,23 +3842,6 @@
     ]
   },
   {
-    "id": "12108695",
-    "rooms": "2",
-    "total_area": "60.59",
-    "price": 8906730,
-    "floor": "2",
-    "buildingSection": "Литер 10",
-    "apartmentNumber": "86",
-    "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
-    "images": [
-      "https://bx.sskuban.ru/upload/planers/p/vkl_l10_p3_f2_n01.png",
-      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
-      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
-      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
-      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
-    ]
-  },
-  {
     "id": "12108715",
     "rooms": "2",
     "total_area": "60.6",
@@ -3808,16 +3876,16 @@
     ]
   },
   {
-    "id": "12108720",
-    "rooms": "1",
-    "total_area": "43.48",
-    "price": 7174200,
-    "floor": "1",
+    "id": "12108754",
+    "rooms": "2",
+    "total_area": "60.5",
+    "price": 9014500,
+    "floor": "3",
     "buildingSection": "Литер 10",
-    "apartmentNumber": "111",
-    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
+    "apartmentNumber": "145",
+    "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
     "images": [
-      "https://bx.sskuban.ru/upload/planers/p/vkl_l10_p4_f1_n02.png",
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l10_p5_f3_n04.png",
       "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
@@ -3835,6 +3903,23 @@
     "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
     "images": [
       "https://bx.sskuban.ru/upload/planers/p/vkl_l10_p6_f1_n01.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
+    "id": "12108772",
+    "rooms": "1",
+    "total_area": "43.26",
+    "price": 7137900,
+    "floor": "1",
+    "buildingSection": "Литер 10",
+    "apartmentNumber": "163",
+    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l10_p6_f1_n02.png",
       "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
@@ -4284,6 +4369,23 @@
     ]
   },
   {
+    "id": "19607966",
+    "rooms": "1",
+    "total_area": "45.66",
+    "price": 7305600,
+    "floor": "3",
+    "buildingSection": "Литер 21",
+    "apartmentNumber": "19",
+    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l21_s1_f3_n05.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
     "id": "19607970",
     "rooms": "2",
     "total_area": "62.46",
@@ -4702,6 +4804,23 @@
     "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
     "images": [
       "https://bx.sskuban.ru/upload/planers/p/vkl_l22_s1_f4_n02.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
+    "id": "19608058",
+    "rooms": "1",
+    "total_area": "45.90",
+    "price": 7344000,
+    "floor": "4",
+    "buildingSection": "Литер 22",
+    "apartmentNumber": "35",
+    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l22_s1_f4_n05.png",
       "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
@@ -5797,6 +5916,23 @@
     ]
   },
   {
+    "id": "24915056",
+    "rooms": "2",
+    "total_area": "53.8",
+    "price": 8177600,
+    "floor": "4",
+    "buildingSection": "Литер 25",
+    "apartmentNumber": "18",
+    "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l25_s1_f4_n06.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
     "id": "24915058",
     "rooms": "2",
     "total_area": "54.99",
@@ -6375,6 +6511,23 @@
     ]
   },
   {
+    "id": "24915113",
+    "rooms": "1",
+    "total_area": "42.37",
+    "price": 6482610,
+    "floor": "4",
+    "buildingSection": "Литер 25",
+    "apartmentNumber": "75",
+    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l25_s3_f4_n03.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
     "id": "24915114",
     "rooms": "3",
     "total_area": "79.95",
@@ -6521,6 +6674,23 @@
     "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
     "images": [
       "https://bx.sskuban.ru/upload/planers/p/vkl_l25_s3_f6_n02.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
+    "id": "24915125",
+    "rooms": "1",
+    "total_area": "42.37",
+    "price": 6482610,
+    "floor": "6",
+    "buildingSection": "Литер 25",
+    "apartmentNumber": "87",
+    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l25_s3_f6_n03.png",
       "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
@@ -7327,6 +7497,23 @@
     ]
   },
   {
+    "id": "24915221",
+    "rooms": "1",
+    "total_area": "42.31",
+    "price": 6473430,
+    "floor": "3",
+    "buildingSection": "Литер 25",
+    "apartmentNumber": "181",
+    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l25_s6_f3_n03.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
     "id": "24915223",
     "rooms": "2",
     "total_area": "58.63",
@@ -7422,6 +7609,23 @@
     "description": "Трехкомнатная квартира — это просторное и светлое жилье, созданное для жизни без компромиссов. Три просторные изолированные комнаты позволяют каждому члену семьи иметь свое личное пространство: спальня, детская, кабинет или гостиная — все организуется легко и удобно. Благодаря увеличенному остеклению, интерьер наполняется естественным светом, визуально расширяется и создает ощущение легкости и открытости. Лоджия не только дополняет квартиру практичной зоной для хранения или отдыха.",
     "images": [
       "https://bx.sskuban.ru/upload/planers/p/vkl_l25_s6_f5_n01.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
+    "id": "24915233",
+    "rooms": "1",
+    "total_area": "42.31",
+    "price": 6473430,
+    "floor": "5",
+    "buildingSection": "Литер 25",
+    "apartmentNumber": "193",
+    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l25_s6_f5_n03.png",
       "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
@@ -7983,6 +8187,23 @@
     "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
     "images": [
       "https://bx.sskuban.ru/upload/planers/p/vkl_l25_s8_f4_n02.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
+    "id": "24915292",
+    "rooms": "1",
+    "total_area": "41.15",
+    "price": 6295950,
+    "floor": "4",
+    "buildingSection": "Литер 25",
+    "apartmentNumber": "252",
+    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l25_s8_f4_n05.png",
       "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
@@ -8670,6 +8891,23 @@
     ]
   },
   {
+    "id": "24915359",
+    "rooms": "1",
+    "total_area": "40.99",
+    "price": 6271470,
+    "floor": "4",
+    "buildingSection": "Литер 26",
+    "apartmentNumber": "15",
+    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l26_s1_f4_n02.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
     "id": "24915362",
     "rooms": "2",
     "total_area": "58.59",
@@ -9163,23 +9401,6 @@
     ]
   },
   {
-    "id": "24915416",
-    "rooms": "1",
-    "total_area": "42.31",
-    "price": 6473430,
-    "floor": "3",
-    "buildingSection": "Литер 26",
-    "apartmentNumber": "72",
-    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
-    "images": [
-      "https://bx.sskuban.ru/upload/planers/p/vkl_l26_s3_f3_n04.png",
-      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
-      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
-      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
-      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
-    ]
-  },
-  {
     "id": "24915418",
     "rooms": "3",
     "total_area": "66.13",
@@ -9275,6 +9496,23 @@
     "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
     "images": [
       "https://bx.sskuban.ru/upload/planers/p/vkl_l26_s3_f5_n02.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
+    "id": "24915428",
+    "rooms": "1",
+    "total_area": "42.31",
+    "price": 6473430,
+    "floor": "5",
+    "buildingSection": "Литер 26",
+    "apartmentNumber": "84",
+    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l26_s3_f5_n04.png",
       "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
@@ -10200,6 +10438,23 @@
     ]
   },
   {
+    "id": "24915531",
+    "rooms": "1",
+    "total_area": "42.37",
+    "price": 6482610,
+    "floor": "3",
+    "buildingSection": "Литер 26",
+    "apartmentNumber": "185",
+    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l26_s6_f3_n04.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
     "id": "24915532",
     "rooms": "2",
     "total_area": "61.24",
@@ -10499,6 +10754,23 @@
     "description": "Трехкомнатная квартира — это просторное и светлое жилье, созданное для жизни без компромиссов. Три просторные изолированные комнаты позволяют каждому члену семьи иметь свое личное пространство: спальня, детская, кабинет или гостиная — все организуется легко и удобно. Благодаря увеличенному остеклению, интерьер наполняется естественным светом, визуально расширяется и создает ощущение легкости и открытости. Лоджия не только дополняет квартиру практичной зоной для хранения или отдыха.",
     "images": [
       "https://bx.sskuban.ru/upload/planers/p/vkl_l26_s6_f7_n03.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
+    "id": "24915556",
+    "rooms": "2",
+    "total_area": "61.24",
+    "price": 9186000,
+    "floor": "7",
+    "buildingSection": "Литер 26",
+    "apartmentNumber": "210",
+    "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l26_s6_f7_n05.png",
       "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
@@ -11213,6 +11485,23 @@
     "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
     "images": [
       "https://bx.sskuban.ru/upload/planers/p/vkl_l26_s9_f3_n02.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
+    "id": "24915628",
+    "rooms": "2",
+    "total_area": "55.07",
+    "price": 8260500,
+    "floor": "3",
+    "buildingSection": "Литер 26",
+    "apartmentNumber": "281",
+    "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l26_s9_f3_n03.png",
       "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
@@ -13141,23 +13430,6 @@
     ]
   },
   {
-    "id": "24915824",
-    "rooms": "1",
-    "total_area": "41.63",
-    "price": 6452650,
-    "floor": "3",
-    "buildingSection": "Литер 28",
-    "apartmentNumber": "12",
-    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
-    "images": [
-      "https://bx.sskuban.ru/upload/planers/p/vkl_l28_s1_f3_n04.png",
-      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
-      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
-      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
-      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
-    ]
-  },
-  {
     "id": "24915826",
     "rooms": "3",
     "total_area": "70.71",
@@ -13406,6 +13678,23 @@
     "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
     "images": [
       "https://bx.sskuban.ru/upload/planers/p/vkl_l28_s1_f7_n02.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
+    "id": "24915847",
+    "rooms": "1",
+    "total_area": "43.99",
+    "price": 6730470,
+    "floor": "7",
+    "buildingSection": "Литер 28",
+    "apartmentNumber": "35",
+    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l28_s1_f7_n03.png",
       "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
@@ -13821,6 +14110,23 @@
     ]
   },
   {
+    "id": "24915896",
+    "rooms": "1",
+    "total_area": "41.16",
+    "price": 6297480,
+    "floor": "4",
+    "buildingSection": "Литер 28",
+    "apartmentNumber": "82",
+    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l28_s3_f4_n05.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
     "id": "24915897",
     "rooms": "3",
     "total_area": "72.97",
@@ -14137,6 +14443,23 @@
     "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
     "images": [
       "https://bx.sskuban.ru/upload/planers/p/vkl_l28_s4_f3_n03.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
+    "id": "24915927",
+    "rooms": "1",
+    "total_area": "42.38",
+    "price": 6568900,
+    "floor": "3",
+    "buildingSection": "Литер 28",
+    "apartmentNumber": "113",
+    "description": "Однокомнатная квартира — это гармоничное сочетание современной планировки, естественного света и продуманной функциональности. Пространство легко зонируется на спальную и гостиную зоны, а просторная кухня с возможностью размещения полноценной обеденной группы становится центром домашнего уюта и встреч с близкими. Лоджия, выходящая из жилой зоны, расширяет полезную площадь: здесь можно организовать рабочий уголок, мини-оранжерею или уютное место для отдыха с чашкой кофе утром.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l28_s4_f3_n04.png",
       "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
@@ -14868,6 +15191,23 @@
     "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
     "images": [
       "https://bx.sskuban.ru/upload/planers/p/vkl_l28_s7_f3_n04.png",
+      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
+      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
+    ]
+  },
+  {
+    "id": "24916027",
+    "rooms": "2",
+    "total_area": "52.92",
+    "price": 8043840,
+    "floor": "4",
+    "buildingSection": "Литер 28",
+    "apartmentNumber": "212",
+    "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
+    "images": [
+      "https://bx.sskuban.ru/upload/planers/p/vkl_l28_s7_f4_n01.png",
       "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
@@ -15701,23 +16041,6 @@
     "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
     "images": [
       "https://bx.sskuban.ru/upload/planers/p/vkl_l28_s10_f6_n05.png",
-      "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
-      "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
-      "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
-      "https://bx.sskuban.ru/upload/iblock/002/z93pqmb7xsaui3atdi1rwzrf9bicw98j/Ген.план_день_3.jpg"
-    ]
-  },
-  {
-    "id": "24916129",
-    "rooms": "2",
-    "total_area": "52.09",
-    "price": 7917680,
-    "floor": "7",
-    "buildingSection": "Литер 28",
-    "apartmentNumber": "306",
-    "description": "Двухкомнатная квартира — это продуманное пространство для комфортной жизни всей семьи. Две изолированные комнаты обеспечивают приватность и гибкость в зонировании: здесь легко разместить спальню, детскую, кабинет или гостиную — в зависимости от ваших потребностей. Просторная кухня вмещает полноценную обеденную зону и дополняется встроенной кладовой, где удобно хранить продукты, бытовую технику или кухонную утварь, сохраняя порядок в основной зоне. Лоджия добавляет функциональную площадь — для хранения, сушки белья или создания уютного уголка отдыха.",
-    "images": [
-      "https://bx.sskuban.ru/upload/planers/p/vkl_l28_s10_f7_n01.png",
       "https://bx.sskuban.ru/upload/iblock/dc7/habln24tis87c7f3be7sav4axe0iyv5i/Rc_01_Final_2_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/143/vq979zqwycb4xfjusmst57mwpyprxmqp/Rc_03_Final_1_11zon.jpg",
       "https://bx.sskuban.ru/upload/iblock/e6a/3ulym7yytc18jv5tm9qyhlb81ffss77b/Top_2_11zon.jpg",
